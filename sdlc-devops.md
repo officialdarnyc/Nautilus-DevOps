@@ -16,4 +16,4 @@ Amazon Web Services describes DevOps as the combination of cultural philosophies
 and tools that increases an organization’s ability to deliver applications and services at high velocity, 
 evolving and improving products at a faster pace than organizations using traditional software development 
 and infrastructure management processes. So like many SDLC models, DevOps is not only an approach to planning and executing work, 
-but also a philosophy that demands a nontraditional mindset in an organization.
+but also a philosophy that demands a non-traditional mindset in an organization.
