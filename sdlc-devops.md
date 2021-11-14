@@ -2,9 +2,9 @@
 
 The Software Development Life Cycle (SDLC) is the software development world’s spellcheck. 
 The SDLC process involves several distinct stages, including planning, analysis, design, building, testing, deployment and maintenance.
-There are currently 6 SDLC models: Agile, Lean, Waterfall, Iterative, Spiral, and DevOps.
+There are currently 6 SDLC models, they are: Agile, Lean, Waterfall, Iterative, Spiral, and DevOps.
 
-The DevOps methodology is a relative newcomer to the SDLC scene. 
+The **DevOps methodology** is a relative newcomer to the SDLC scene. 
 It emerged from two trends: the application of Agile and Lean practices to operations work, and the general shift in business toward seeing the value of collaboration 
 between development and operations staff at all stages of the SDLC process.
 
