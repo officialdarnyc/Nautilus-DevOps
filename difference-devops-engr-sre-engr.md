@@ -22,7 +22,9 @@ SRE leverages operations data and software engineering to automate IT operations
 
 ## Automation ##
 
-DevOps is going to automate deployment. They’re going to automate tasks and features. SRE is going to automate redundancy, and they're going to automate 
+DevOps is going to automate deployment. They’re going to automate tasks and features. 
+
+SRE is going to automate redundancy, and they're going to automate 
 manual tasks that they can turn into programmatic tasks to keep the stack up and running.
 
 ## Skill Sets ##
