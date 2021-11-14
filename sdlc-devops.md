@@ -17,3 +17,9 @@ and tools that increases an organization’s ability to deliver applications and
 evolving and improving products at a faster pace than organizations using traditional software development 
 and infrastructure management processes. So like many SDLC models, DevOps is not only an approach to planning and executing work, 
 but also a philosophy that demands a non-traditional mindset in an organization.
+
+DevOps looks at the complete Software Development Lifecycle, breaking it down into four phases which further spans to six areas for scope coverage:
+1. Plan & Measure
+2. Develop & Test
+3. Release & Deploy
+4. Monitor & Optimize
