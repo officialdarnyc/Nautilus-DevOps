@@ -22,7 +22,7 @@ Ran the newly created script to bulk create the groups.
 ```
 sudo ./grp-script.sh
 ```
-Confirmed the groups were created by viewing the file `/etc/group` using the `cat` command.
+Confirmed the groups were created by viewing the directory `/etc/group` using the `cat` command.
 
 ## Create Users
 
@@ -56,7 +56,7 @@ Ran the users-script.sh script which created the 15 users in bulk and also assig
 ```
 sudo ./users-script.sh
 ```
-By checking the `/etc/passwd` file, I was able to confirm all the users got created.
+By checking the `/etc/passwd` directory, I was able to confirm all the users got created.
 
 ```
 cut -d: -f1 /etc/passwd
