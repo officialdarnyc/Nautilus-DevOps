@@ -10,6 +10,6 @@ sudo gpasswd -M ops1,ops2,ops3,ops4,ops5 ops
 Using the `getent` command, I was able to verify that the users got added to their respective groups.
 
 ```
-getent group frontend-dev
+getent group backend-dev
 ```
-Output: `frontend-dev:x:999:fedev3,fedev4,fedev5`
+Output: `backend-dev:x:998:bedev1,bedev2,bedev3,bedev4,bedev5`

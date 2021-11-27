@@ -51,7 +51,7 @@ Using the `chmod` command, granted my user the execute permission to that file.
 ```
 chmod u+x users-script.sh
 ```
-Ran the users-script.sh script to bulk create the 15 users and assigned unique passwords to each user in the format (`username@1234`).
+Ran the users-script.sh script which created the 15 users in bulk and also assigned unique passwords to each user in the format (`username@1234`).
 
 ```
 sudo ./users-script.sh
