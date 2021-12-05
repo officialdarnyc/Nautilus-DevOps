@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  nginx:
+    depends_on:
+      - django
+      - nestjs-rest
+    restart: always
+    build:
+      context: ./Week4/nginx
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+
+  django:
+    build:
+      context: ./Week4/django-app
+      dockerfile: /compose/django/Dockerfile-dev
+    volumes:
+      - ./:/app/
+    command: ["./Week4/django-app/manage.py", "runserver", "0:8000"]
+    environment:
+     - DJANGO_DB_HOST=db
+    restart: always
+    ports:
+      - 8000:8000
+
+  nestjs-rest:
+    build:
+      context: ./Week4/nestjs-rest
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 5000:5000
