@@ -32,6 +32,6 @@ Link to the Docker Image: https://hub.docker.com/r/officialdarnyc/simple-app/tag
 
 Ran the docker image with `-d` so that the container runs in detached mode (leaving the container running in the background). Also used the `-p` flag to redirect a public port to a private port inside the container. Ran the image using:
 ```
-docker run -p 49160:8080 -d officialdarnyc/simple-app
+docker run -p 49160:8080 -d officialdarnyc/simple-app:v1
 ```
 Confirmed it was running using the `docker ps` command.
