@@ -30,7 +30,7 @@ Created a CI/CD build pipeline using GitHub Actons by creating a `build.yaml` fi
 
 Link to the Docker Image: https://hub.docker.com/r/officialdarnyc/simple-app/tags.
 
-Ran the docker image with `-d` so that the container runs in detached mode (leaving the container running in the background). Also used the `-p` flag to redirect a public port to a private port inside the container. Ran the image using:
+Ran the docker image with `-d` so that the container runs in detached mode (leaving the container running in the background). Also used the `-p` flag to redirect and map a public port on my machine to a private port inside the docker container. Ran the image using:
 ```
 docker run -p 49160:8080 -d officialdarnyc/simple-app:v1
 ```
