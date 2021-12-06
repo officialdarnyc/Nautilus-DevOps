@@ -24,6 +24,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./Week4/simple-app
-          file: Dockerfile
+          file: ./Week4/simple-app/Dockerfile
           push: true
           tags: officialdarnyc/simple-app:v1
