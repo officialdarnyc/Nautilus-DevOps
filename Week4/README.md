@@ -28,7 +28,7 @@ CMD ["node", "server.js"]
 ```
 Created a CI/CD build pipeline using GitHub Actons by creating a `build.yaml` file in the directory `.github/workflow` under the `root` directory. The pipeline was designed to build and push the app to my DockerHub account `officialdarnyc`.
 
-Link to the Docker Image: https://hub.docker.com/repository/docker/officialdarnyc/simple-app.
+Link to the Docker Image: https://hub.docker.com/r/officialdarnyc/simple-app/tags.
 
 Ran the docker image with `-d` so that the container runs in detached mode (leaving the container running in the background). Also used the `-p` flag to redirect a public port to a private port inside the container. Ran the image using:
 ```
