@@ -26,7 +26,7 @@ EXPOSE 8080
 
 CMD ["node", "server.js"]
 ```
-Created a CI/CD build pipeline using GitHub Actons by creating a `build.yaml` file in the directory `.github/workflow` under the `root` directory. The pipeline was designed to build and push the app to my DockerHub account `officialdarnyc`.
+Created a CI/CD build pipeline using GitHub Actons by creating a `build.yaml` file in the directory `.github/workflows` under the `root` directory. The pipeline was designed to build and push the app to my DockerHub account `officialdarnyc`.
 
 Link to the Docker Image: https://hub.docker.com/r/officialdarnyc/simple-app/tags.
 
